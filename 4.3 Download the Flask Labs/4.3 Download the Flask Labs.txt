@@ -1,0 +1,53 @@
+-> Flask Installation & Setup Lesson  
+   -> Download the Flask Labs  
+   -> 3 min to complete  
+   -> By Brandon Gigous  
+
+-> Contents  
+   -> Introduction  
+   -> Set up your working directory  
+   -> Clone the labs repository  
+
+-> Introduction  
+   -> In this lesson, you will be setting up your working directory and downloading the course labs for Python + Flask  
+   -> These labs are critical for gaining hands-on experience with Flask, as they include exercises and projects designed to reinforce what you learn in each module  
+   -> The labs will help you practice and apply the Flask concepts you study throughout the course, and completing them is required for obtaining your certificate at the end of the course  
+   -> This lesson ensures that you are organised and prepared for all the practical work ahead  
+
+-> Set up your working directory  
+   -> Before you can download the labs, itÕs important to set up a clear, well-organised working directory for all your course materials  
+   -> By keeping all your projects in a dedicated folder, youÕll ensure that everything is stored in one place, making it easy to access and track your progress  
+   -> Create a main folder to store your course files (e.g., **CodingNomads/projects**). This will be your main directory for all the projects you build during this course  
+      -> Navigate to your **Documents** directory (or another preferred location) by using the following command:  
+         -> `$ cd ~/Documents`  
+      -> Create the **CodingNomads/projects** directory structure to store your course files with the following command:  
+         -> `$ mkdir -p CodingNomads/projects`  
+   -> **Note**: If youÕve already created a folder structure for previous courses, whether from CodingNomads or other platforms, feel free to use the structure you preferÑthis step is simply about organisation  
+
+   -> Inside your **projects** directory, create a subfolder for your **flask-webdev** project, which will hold all the files you work on for this Flask course  
+      -> Run the following command to create the **flask-webdev** folder:  
+         -> `$ mkdir flask-webdev`  
+   -> If you have **git** installed, itÕs a good idea to initialise a Git repository in this folder to keep track of the changes you make to your project over time  
+      -> To initialise the repository, run:  
+         -> `$ cd CodingNomads/projects` (navigate into your **projects** folder)  
+         -> `$ git init flask-webdev` (initialise a Git repository in your **flask-webdev** project folder)  
+   -> **Info**: This folder structure will be referenced throughout the course to guide you through the lessons and ensure consistency in how files are organised  
+
+-> Clone the labs repository  
+   -> Now that your working directory is set up, itÕs time to download the course labs repository, which contains the exercises and projects youÕll use throughout the course  
+   -> The course is designed like an adventure, where you'll be helping fictional characters with their Flask projects. These characters will pose challenges that are based on real-world Flask development scenarios  
+   -> The labs are not just for practising Flask basicsÑthey provide exercises that deepen your understanding of the framework by applying it to real problems. This is crucial for solidifying your skills in web development  
+   -> To download the labs repository from GitHub and place it inside the **flask-webdev** folder, use the following command:  
+      -> `$ git clone https://github.com/CodingNomads/flask-labs.git`  
+   -> Once the cloning process is complete, use the following command to check the contents of the **flask-webdev** directory:  
+      -> `$ ls`  
+   -> The output should show two directories:  
+      -> **flask-labs/** (the cloned labs repository containing all the exercises and projects)  
+      -> **flask-webdev/** (your own project folder where youÕll work through the course materials)  
+
+   -> These two folders are important as **flask-labs** contains the core course exercises, and **flask-webdev** is where youÕll store the work you do for each lab  
+
+-> You're all set!  
+   -> Now that you've successfully cloned the labs repository and organised your working directory, you're ready to continue with the course  
+   -> The next steps involve verifying that you have Python installed, setting up your virtual environment, and installing Flask  
+   -> These steps are crucial for ensuring you have a solid foundation to start building Flask applications and working through the course labs  

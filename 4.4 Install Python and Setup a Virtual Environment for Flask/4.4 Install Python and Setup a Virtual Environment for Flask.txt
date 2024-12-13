@@ -1,0 +1,71 @@
+-> Flask Installation & Setup Lesson  
+   -> Install Python and Set Up a Virtual Environment for Flask  
+   -> 3 min to complete  
+   -> By Brandon Gigous  
+
+-> Contents  
+   -> Introduction  
+   -> Install Python  
+   -> Create a Virtual Environment  
+
+-> Introduction  
+   -> To begin this course you need to ensure that Python 3.6 or a higher version is installed on your machine  
+   -> To verify if Python is already installed and meets the version requirements open your terminal and run one of the following commands  
+      -> `python3 --version`  
+      -> or  
+      -> `python --version`  
+   -> If Python is installed the version number displayed should be at least `3.6` You may see an output like  
+      -> `Python 3.6.15`  
+   -> If your Python version is below 3.6 or if Python is not installed at all follow the instructions in the Python 101 course which provides a detailed guide on installing Python on your system  
+
+-> Install Python  
+   -> If Python is already installed  
+      -> As long as the version is 3.6 or higher youÕre good to go  
+      -> To double-check the version use the command `python3 --version` or `python --version` again The output should indicate a version such as `Python 3.6.15` or higher  
+   -> If Python is not installed or is an older version  
+      -> If your system does not meet the Python version requirement you must install or update Python  
+      -> Follow the Python 101 course's "How to Install Python" section to properly set up Python on your machine Ensure that you install a version of Python that is 3.6 or higher  
+      -> Note The course assumes you have a basic understanding of programming It won't provide step-by-step instructions on how to install Python but will guide you to resources to help if necessary If you encounter issues during installation feel free to ask for assistance on Discord or any other course community platforms  
+
+   -> Important Once Python is installed test it by opening the Python interpreter You should be able to run the command `python` or `python3` in the terminal and access an interactive Python shell Type `exit()` to exit the interpreter Make sure the installed Python version is at least `3.6`
+
+-> Create a Virtual Environment  
+   -> A key part of this course is using virtual environments Virtual environments allow you to isolate the dependencies for each project you work on ensuring that you donÕt run into issues with conflicting library versions across different projects  
+   -> Using a virtual environment ensures that your Flask app will only use the dependencies installed within it rather than relying on globally installed packages which could cause version clashes and unwanted behaviour  
+   -> Now that youÕve confirmed Python is installed you can create your virtual environment  
+
+   -> Steps to set up your virtual environment  
+      -> First navigate to the folder where you want to store the course's project files You should have followed the previous steps and created a folder for this course  
+      -> Example of creating the project directory  
+         -> `$ mkdir -p ~/Documents/CodingNomads/projects`  
+         -> `$ cd ~/Documents/CodingNomads/projects`  
+      -> Inside the `projects` folder create a subfolder for your Flask project If youÕve followed the folder structure guide in previous lessons it would look something like this  
+         -> `$ mkdir flask-webdev`  
+         -> `$ cd flask-webdev`  
+      -> Once youÕre inside the project folder create the virtual environment by running the following command  
+         -> `$ python3 -m venv env`  
+         -> This command uses PythonÕs built-in `venv` module to create a new virtual environment in the `env` folder within your project directory You can name the environment folder something else if you prefer but `env` is commonly used and easy to remember  
+      -> After running the command Python will create a number of files inside the `env` folder that represent the isolated environment YouÕll now have a clean space to install Flask and any other dependencies that are specific to this project  
+
+-> Activating the Virtual Environment  
+   -> To start working in your newly created virtual environment you must activate it  
+   -> Activating the virtual environment tells your terminal to use the specific versions of libraries and dependencies installed inside that environment When activated any Python-related commands you run will use the packages and settings from within this environment rather than the global Python environment on your system  
+
+   -> Activation process  
+      -> For Linux/macOS  
+         -> Run the following command to activate the virtual environment  
+            -> `$ source env/bin/activate`  
+      -> For Windows  
+         -> Use this command to activate the environment  
+            -> `$ .\env\Scripts\activate`  
+      -> Once activated your terminal prompt should change and youÕll see the name of your virtual environment (in this case `env`) in parentheses at the start of the line This indicates that the virtual environment is active and ready for use  
+         -> `(env) your-computer-name:flask-webdev your-user-name$`  
+      -> Important Every time you work on your Flask project you need to activate the virtual environment first Without activation your terminal will use global Python settings instead of the ones in your virtual environment which can lead to errors and dependency issues  
+      -> If you want to deactivate the environment later simply run the command  
+         -> `$ deactivate`  
+      -> This will return you to your global Python environment  
+
+-> What's Next?  
+   -> Now that your virtual environment is set up and activated you're ready to start installing Flask and other necessary dependencies for your project  
+   -> The next step is to install Flask inside the virtual environment This ensures that your Flask application uses the correct version of the framework isolated from any global Python packages  
+   -> Once Flask is installed you can begin building your first Flask app To continue proceed to the next lesson where you will learn how to install Flask within your virtual environment and start coding your application
