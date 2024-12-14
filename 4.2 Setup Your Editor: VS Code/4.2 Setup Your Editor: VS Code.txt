@@ -1,7 +1,5 @@
 -> Flask Installation & Setup Lesson  
    -> Setup Your Editor: VS Code  
-   -> 3 min to complete  
-   -> By Brandon Gigous  
 
 -> Contents  
    -> Introduction  

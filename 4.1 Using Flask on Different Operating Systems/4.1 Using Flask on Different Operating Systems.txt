@@ -1,7 +1,6 @@
 -> Flask Installation & Setup Lesson  
    -> Using Flask on Different Operating Systems  
    -> Lesson Duration: 6 minutes  
-   -> Instructor: Brandon Gigous  
 
 -> Introduction  
    -> This lesson focuses on preparing your computer for Flask development  
