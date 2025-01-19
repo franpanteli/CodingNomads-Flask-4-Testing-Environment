@@ -1,6 +1,6 @@
 # CodingNomads-Flask-4-Testing-Environment
 ## Repository File Tree
-This repository contains my work for the 16th module in the [Coding Nomads Flask Web Framework](https://codingnomads.com/course/python-flask-web-framework) course. I completed this 21-module course as part of my independent learning, to invest in my Python skills. I produced an in-depth library of resources on this module, whose file tree is provided below. 
+This repository contains my work for the 4th module in the [Coding Nomads Flask Web Framework](https://codingnomads.com/course/python-flask-web-framework) course. I completed this 21-module course as part of my independent learning, to invest in my Python skills. I produced an in-depth library of resources on this module, whose file tree is provided below. 
 
 <img width="1034" alt="Screenshot 2025-01-19 at 15 43 09" src="https://github.com/user-attachments/assets/cbf31fdf-4ec9-45ab-8799-c921e33ed1f8" />
 
