@@ -1,43 +1,43 @@
--> Flask Installation & Setup Lesson  
-   -> Setup Your Editor: VS Code  
+-> flask installation & setup lesson  
+   -> setup your editor: vs code  
 
--> Contents  
-   -> Introduction  
-   -> Why use VS Code?  
-   -> Install VS Code  
-   -> VS Code extensions  
+-> contents  
+   -> introduction  
+   -> why use vs code?  
+   -> install vs code  
+   -> vs code extensions  
 
--> Introduction  
-   -> What's free, open-source, and super useful?  
-      -> It's a good ol' free Integrated Development Environment (IDE)  
-      -> IDEs give you a place to type your code into and try executing it  
-      -> In this lesson, you'll learn about VS Code, how to install it, and helpful Flask VS Code extensions  
+-> introduction  
+   -> what's free, open-source, and super useful?  
+      -> it's a good ol' free integrated development environment (ide)  
+      -> ides give you a place to type your code into and try executing it  
+      -> in this lesson, you'll learn about vs code, how to install it, and helpful flask vs code extensions  
 
--> Why use VS Code?  
-   -> In this Python + Flask course, you will be working with the lightweight VS Code IDE  
-   -> Advantages of VS Code include:  
-      -> Free and open-source  
-      -> Extensions (also free) that make web development easier (e.g. syntax highlighting for Django templates)  
-      -> Broad community support  
-      -> Integrated debugging and seamless use of your terminal  
-   -> If you have a different favourite code editor, feel free to use it instead  
-      -> This course will use VS Code throughout, so it will be easier to follow along if you choose the same editor  
-   -> VS Code has rightfully gained a lot of positive attention and is a useful tool to know  
+-> why use vs code?  
+   -> in this python + flask course, you will be working with the lightweight vs code ide  
+   -> advantages of vs code include:  
+      -> free and open-source  
+      -> extensions (also free) that make web development easier (e.g. syntax highlighting for django templates)  
+      -> broad community support  
+      -> integrated debugging and seamless use of your terminal  
+   -> if you have a different favourite code editor, feel free to use it instead  
+      -> this course will use vs code throughout, so it will be easier to follow along if you choose the same editor  
+   -> vs code has rightfully gained a lot of positive attention and is a useful tool to know  
 
--> Install VS Code  
-   -> To get up and running, please follow CodingNomads' VS Code installation guide, then return here  
+-> install vs code  
+   -> to get up and running, please follow codingnomads' vs code installation guide, then return here  
 
--> VS Code extensions  
-   -> Once you have your text editor installed and set up, install the following extensions to aid in your Flask web app development quest:  
-      -> **Jinja**: Jinja template language support for Visual Studio Code  
-      -> **Jinja2 Snippet Kit**: Jinja2 snippets for cool attractive people to use in your HTML templates  
-      -> **Python**: Linting, Debugging (multi-threaded, remote), Intellisense, Jupyter Notebooks, code formatting, refactoring, unit tests, snippets, and more  
-      -> **Trailing Spaces**: Highlight trailing spaces and delete them in a flash  
-      -> **AutoTrim**: Automatically trims trailing whitespace when moving the cursor from one line to another  
+-> vs code extensions  
+   -> once you have your text editor installed and set up, install the following extensions to aid in your flask web app development quest:  
+      -> **jinja**: jinja template language support for visual studio code  
+      -> **jinja2 snippet kit**: jinja2 snippets for cool attractive people to use in your html templates  
+      -> **python**: linting, debugging (multi-threaded, remote), intellisense, jupyter notebooks, code formatting, refactoring, unit tests, snippets, and more  
+      -> **trailing spaces**: highlight trailing spaces and delete them in a flash  
+      -> **autotrim**: automatically trims trailing whitespace when moving the cursor from one line to another  
 
--> Additional Settings  
-   -> There's also a file auto-save feature in VSCode's settings  
-      -> To toggle it, head to **File -> Preferences -> Settings...** and search for "Files: Auto Save"  
-   -> For normal users who want to save their files manually every once in a while, this feature is not recommended  
+-> additional settings  
+   -> there's also a file auto-save feature in vscode's settings  
+      -> to toggle it, head to **file -> preferences -> settings...** and search for "files: auto save"  
+   -> for normal users who want to save their files manually every once in a while, this feature is not recommended  
 
--> Now that you've got your code editor set up, it's time to download the lab used in this course  
+-> now that you've got your code editor set up, it's time to download the lab used in this course

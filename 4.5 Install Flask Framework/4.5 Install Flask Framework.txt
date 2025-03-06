@@ -1,59 +1,59 @@
--> Flask Installation & Setup Lesson  
-   -> Install Flask Framework  
+-> flask installation & setup lesson  
+   -> install flask framework  
 
--> Introduction to Flask Installation  
-   -> Before you begin installing Flask, ensure that you have successfully created and activated your virtual environment  
-      -> Your virtual environment is an isolated workspace where you can install Python packages without affecting your system's global Python installation  
-      -> To confirm your virtual environment is activated, you should see the environment name (e.g., `env`) at the start of your terminal prompt  
-         -> Example: `(env) user-name@your-computer:flask-webdev$`  
-   -> If you can see this prompt, it means you're in the right environment, and you can now proceed with Flask installation  
+-> introduction to flask installation  
+   -> before you begin installing flask, ensure that you have successfully created and activated your virtual environment  
+      -> your virtual environment is an isolated workspace where you can install python packages without affecting your system's global python installation  
+      -> to confirm your virtual environment is activated, you should see the environment name (e.g., `env`) at the start of your terminal prompt  
+         -> example: `(env) user-name@your-computer:flask-webdev$`  
+   -> if you can see this prompt, it means you're in the right environment, and you can now proceed with flask installation  
 
--> Install Flask  
-   -> To install Flask, you will use `pip`, which is Python's package installer  
-   -> In your terminal, with the virtual environment activated, enter the following command:  
+-> install flask  
+   -> to install flask, you will use `pip`, which is python's package installer  
+   -> in your terminal, with the virtual environment activated, enter the following command:  
       -> `pip install flask`  
-   -> What happens when you run this command?  
-      -> `pip` will connect to the Python Package Index (PyPI), which is a repository of open-source Python libraries  
-      -> `pip` will then download Flask and all its dependencies into your virtual environment  
-         -> Flask relies on a number of other libraries to function, including `Werkzeug` (for WSGI functionality), `Jinja2` (for templating), and `MarkupSafe` (for HTML escaping)  
-      -> These libraries will be installed automatically by `pip` to ensure Flask runs smoothly  
+   -> what happens when you run this command?  
+      -> `pip` will connect to the python package index (pypi), which is a repository of open-source python libraries  
+      -> `pip` will then download flask and all its dependencies into your virtual environment  
+         -> flask relies on a number of other libraries to function, including `werkzeug` (for wsgi functionality), `jinja2` (for templating), and `markupsafe` (for html escaping)  
+      -> these libraries will be installed automatically by `pip` to ensure flask runs smoothly  
 
--> Verifying Flask Installation  
-   -> After Flask has been installed, it's important to verify that everything has been set up correctly  
-      -> You can do this by testing if Flask can be imported without errors in a Python session  
-   -> To verify, first start a Python session by typing `python` or `python3` in your terminal  
-      -> You should see the Python interactive shell prompt, which looks like this:  
+-> verifying flask installation  
+   -> after flask has been installed, it's important to verify that everything has been set up correctly  
+      -> you can do this by testing if flask can be imported without errors in a python session  
+   -> to verify, first start a python session by typing `python` or `python3` in your terminal  
+      -> you should see the python interactive shell prompt, which looks like this:  
          -> `>>>`  
-   -> Then, try importing Flask by typing the following command into the Python shell:  
+   -> then, try importing flask by typing the following command into the python shell:  
       -> `>>> import flask`  
-   -> If no errors appear and you're returned to the Python shell prompt without any messages, the installation was successful  
-   -> If you encounter any errors, check the following:  
-      -> Ensure your virtual environment is still activated (look for the `(env)` at the start of your terminal prompt)  
-      -> Make sure you typed `pip install flask` correctly and that the installation completed without issues  
+   -> if no errors appear and you're returned to the python shell prompt without any messages, the installation was successful  
+   -> if you encounter any errors, check the following:  
+      -> ensure your virtual environment is still activated (look for the `(env)` at the start of your terminal prompt)  
+      -> make sure you typed `pip install flask` correctly and that the installation completed without issues  
 
--> What if the installation fails?  
-   -> If you receive an error when trying to import Flask, it could be for a few reasons:  
-      -> You might not have installed Flask in the right environment'double-check that the virtual environment is activated  
-      -> There might have been an issue during the installation process'try running `pip install flask` again and check for any error messages  
-      -> If you're using a specific version of Python (e.g., Python 3), make sure you're using the correct version of `pip` by running `pip3 install flask` instead  
-   -> If these steps don't resolve the issue, consider deleting the virtual environment and recreating it, then reinstall Flask  
+-> what if the installation fails?  
+   -> if you receive an error when trying to import flask, it could be for a few reasons:  
+      -> you might not have installed flask in the right environment—double-check that the virtual environment is activated  
+      -> there might have been an issue during the installation process—try running `pip install flask` again and check for any error messages  
+      -> if you're using a specific version of python (e.g., python 3), make sure you're using the correct version of `pip` by running `pip3 install flask` instead  
+   -> if these steps don't resolve the issue, consider deleting the virtual environment and recreating it, then reinstall flask  
 
--> Understanding Python and Flask's Dependencies  
-   -> Flask is a micro web framework for Python, which means it's designed to be simple and lightweight but still powerful enough to build full-fledged web applications  
-   -> When you install Flask using `pip install flask`, you're also installing its dependencies, which include:  
-      -> **Werkzeug**: A library that provides utility functions for WSGI (Web Server Gateway Interface), which is the standard interface between web servers and Python applications  
-      -> **Jinja2**: A templating engine that Flask uses to generate dynamic HTML pages by embedding Python-like expressions within HTML files  
-      -> **MarkupSafe**: Ensures that the output generated by Jinja2 is safe from code injection attacks by escaping unsafe characters in strings  
-   -> Flask's installation automatically manages these dependencies, so you don't have to worry about installing them individually  
+-> understanding python and flask's dependencies  
+   -> flask is a micro web framework for python, which means it's designed to be simple and lightweight but still powerful enough to build full-fledged web applications  
+   -> when you install flask using `pip install flask`, you're also installing its dependencies, which include:  
+      -> **werkzeug**: a library that provides utility functions for wsgi (web server gateway interface), which is the standard interface between web servers and python applications  
+      -> **jinja2**: a templating engine that flask uses to generate dynamic html pages by embedding python-like expressions within html files  
+      -> **markupsafe**: ensures that the output generated by jinja2 is safe from code injection attacks by escaping unsafe characters in strings  
+   -> flask's installation automatically manages these dependencies, so you don't have to worry about installing them individually  
 
--> Next Steps  
-   -> Now that Flask is installed and verified, you're ready to begin developing your first Flask application  
-   -> The next lesson will guide you through the process of setting up a basic Flask app, creating routes, and handling requests  
-   -> But before that, test your knowledge of Flask installation by taking a short quiz on the setup process and ensuring that you've understood all the necessary steps so far  
-   -> Once you're comfortable with the installation process, you'll move on to developing your Flask app, including setting up routes, templates, and handling HTTP methods  
+-> next steps  
+   -> now that flask is installed and verified, you're ready to begin developing your first flask application  
+   -> the next lesson will guide you through the process of setting up a basic flask app, creating routes, and handling requests  
+   -> but before that, test your knowledge of flask installation by taking a short quiz on the setup process and ensuring that you've understood all the necessary steps so far  
+   -> once you're comfortable with the installation process, you'll move on to developing your flask app, including setting up routes, templates, and handling http methods  
 
--> Conclusion  
-   -> You've now completed the Flask installation and verification process successfully  
-   -> With Python installed and Flask set up in your virtual environment, you're in a great position to begin building Flask applications  
-   -> Make sure to always activate your virtual environment before working on your project to ensure that the correct dependencies are used  
-   -> Ready to start coding your first Flask app? Click on the next lesson to continue your journey with Flask web development  
+-> conclusion  
+   -> you've now completed the flask installation and verification process successfully  
+   -> with python installed and flask set up in your virtual environment, you're in a great position to begin building flask applications  
+   -> make sure to always activate your virtual environment before working on your project to ensure that the correct dependencies are used  
+   -> ready to start coding your first flask app? click on the next lesson to continue your journey with flask web development  

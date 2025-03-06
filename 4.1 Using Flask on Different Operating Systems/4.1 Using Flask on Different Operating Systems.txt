@@ -1,103 +1,103 @@
--> Flask Installation & Setup Lesson  
-   -> Using Flask on Different Operating Systems  
-   -> Lesson Duration: 6 minutes  
+-> flask installation & setup lesson  
+   -> using flask on different operating systems  
+   -> lesson duration: 6 minutes  
 
--> Introduction  
-   -> This lesson focuses on preparing your computer for Flask development  
-      -> Covers installation of Python, Flask, and supporting tools across different operating systems  
-      -> Ensures your environment is properly set up for real-world Flask application development  
-   -> Local development is emphasised to foster better understanding and hands-on experience with essential tools  
+-> introduction  
+   -> this lesson focuses on preparing your computer for flask development  
+      -> covers installation of python, flask, and supporting tools across different operating systems  
+      -> ensures your environment is properly set up for real-world flask application development  
+   -> local development is emphasised to foster better understanding and hands-on experience with essential tools  
 
--> Why Code Locally?  
-   -> Advantages of local coding over browser-based platforms:  
-      -> Develops proficiency with tools required for professional development  
-         -> Teaches how to install, configure, and manage a development stack  
-         -> Encourages debugging and problem-solving in a real-world context  
-      -> Provides a stable foundation for future projects  
-         -> Avoids dependency on online environments, which may oversimplify workflows  
-         -> Prepares you to manage local development environments independently  
-      -> Supports deeper learning by offering full control over the development process  
-   -> While browser-based tools like Repl.it are convenient, they do not replicate real-world development scenarios  
-      -> Local setup enables full control over project dependencies, system configurations, and deployment practices  
+-> why code locally?  
+   -> advantages of local coding over browser-based platforms:  
+      -> develops proficiency with tools required for professional development  
+         -> teaches how to install, configure, and manage a development stack  
+         -> encourages debugging and problem-solving in a real-world context  
+      -> provides a stable foundation for future projects  
+         -> avoids dependency on online environments, which may oversimplify workflows  
+         -> prepares you to manage local development environments independently  
+      -> supports deeper learning by offering full control over the development process  
+   -> while browser-based tools like repl.it are convenient, they do not replicate real-world development scenarios  
+      -> local setup enables full control over project dependencies, system configurations, and deployment practices  
 
--> Key Setup Components for Flask Development  
-   -> **Python**:  
-      -> Flask requires Python 3.6 or higher for compatibility with modern libraries  
-      -> Steps to install Python:  
-         -> **Linux**: Use package managers like `apt`, `yum`, or `dnf`  
-            Example: `sudo apt update && sudo apt install python3`  
-         -> **macOS**: Use Homebrew for installation  
-            Example: `brew install python`  
-         -> **Windows**: Download and install Python from the official [Python website](https://www.python.org/)  
-            -> Ensure that you check the box to add Python to your system PATH during installation  
-      -> Verify Python installation: Run `python3 --version` or `python --version` in your terminal  
+-> key setup components for flask development  
+   -> **python**:  
+      -> flask requires python 3.6 or higher for compatibility with modern libraries  
+      -> steps to install python:  
+         -> **linux**: use package managers like `apt`, `yum`, or `dnf`  
+            example: `sudo apt update && sudo apt install python3`  
+         -> **macos**: use homebrew for installation  
+            example: `brew install python`  
+         -> **windows**: download and install python from the official [python website](https://www.python.org/)  
+            -> ensure that you check the box to add python to your system path during installation  
+      -> verify python installation: run `python3 --version` or `python --version` in your terminal  
 
-   -> **Code Editor**:  
-      -> Recommended: Visual Studio Code (VS Code) for its simplicity and powerful extensions  
-      -> Alternative options: PyCharm, Sublime Text, or other Python-friendly editors  
-   -> **Virtual Environment**:  
-      -> Why use virtual environments?  
-         -> Isolates dependencies for each project to prevent version conflicts  
-         -> Simplifies dependency management and ensures reproducibility  
-      -> Tools for creating virtual environments:  
-         -> Use `venv` (bundled with Python)  
-         -> Example commands:  
-            -> Create: `python3 -m venv venv`  
-            -> Activate:  
-               -> **Linux/macOS**: `source venv/bin/activate`  
-               -> **Windows**: `venv\Scripts\activate`  
-      -> Deactivate virtual environment: Use the `deactivate` command  
-   -> **Flask**: Install Flask using `pip` inside your virtual environment  
-      -> Command: `pip install flask`  
+   -> **code editor**:  
+      -> recommended: visual studio code (vs code) for its simplicity and powerful extensions  
+      -> alternative options: pycharm, sublime text, or other python-friendly editors  
+   -> **virtual environment**:  
+      -> why use virtual environments?  
+         -> isolates dependencies for each project to prevent version conflicts  
+         -> simplifies dependency management and ensures reproducibility  
+      -> tools for creating virtual environments:  
+         -> use `venv` (bundled with python)  
+         -> example commands:  
+            -> create: `python3 -m venv venv`  
+            -> activate:  
+               -> **linux/macos**: `source venv/bin/activate`  
+               -> **windows**: `venv\scripts\activate`  
+      -> deactivate virtual environment: use the `deactivate` command  
+   -> **flask**: install flask using `pip` inside your virtual environment  
+      -> command: `pip install flask`  
 
--> Installing Flask on Different Operating Systems  
-   -> This course uses Ubuntu (a Linux-based, UNIX-like OS) as the reference system  
-      -> UNIX-based systems are standard for web development due to their compatibility with most tools  
-      -> If using macOS or other Linux distributions, follow along with minor adjustments as needed  
+-> installing flask on different operating systems  
+   -> this course uses ubuntu (a linux-based, unix-like os) as the reference system  
+      -> unix-based systems are standard for web development due to their compatibility with most tools  
+      -> if using macos or other linux distributions, follow along with minor adjustments as needed  
 
-   -> **Unix-Based Operating Systems**:  
-      -> **Ubuntu**: Fully compatible with course tutorials; follow the instructions as is  
-      -> **Other Linux Distributions (e.g., Fedora, Arch Linux)**:  
-         -> Install Python and Flask using the distribution's package manager  
-         -> Commands may vary slightly, but principles remain consistent  
-      -> **macOS**:  
-         -> Leverage tools like `brew` (Homebrew) for installing Python and other dependencies  
-         -> Example: `brew install python`  
-      -> Key Steps for UNIX-based systems:  
-         -> Install Python 3.6+  
-         -> Install a code editor (like VS Code)  
-         -> Set up and activate a virtual environment  
-         -> Use `pip install flask` to add Flask to your project  
+   -> **unix-based operating systems**:  
+      -> **ubuntu**: fully compatible with course tutorials; follow the instructions as is  
+      -> **other linux distributions (e.g., fedora, arch linux)**:  
+         -> install python and flask using the distribution's package manager  
+         -> commands may vary slightly, but principles remain consistent  
+      -> **macos**:  
+         -> leverage tools like `brew` (homebrew) for installing python and other dependencies  
+         -> example: `brew install python`  
+      -> key steps for unix-based systems:  
+         -> install python 3.6+  
+         -> install a code editor (like vs code)  
+         -> set up and activate a virtual environment  
+         -> use `pip install flask` to add flask to your project  
 
-   -> **Windows Operating Systems**:  
-      -> Two recommended options for UNIX-like environments on Windows:  
-         -> **Windows Subsystem for Linux (WSL)**:  
-            -> WSL enables you to run a full Linux distribution within Windows  
-            -> Allows seamless execution of UNIX-based commands and tools  
-            -> Steps to install WSL:  
-               -> Open PowerShell as Administrator  
-               -> Run: `wsl --install` (for Windows 10/11)  
-               -> Restart your system, then set up your Linux distribution (e.g., Ubuntu)  
-               -> Install Python, Flask, and other tools within the Linux environment  
-            -> Official Microsoft tutorial provides detailed guidance  
-         -> **Git Bash**:  
-            -> Lightweight alternative for users unable to install WSL  
-            -> Comes packaged with Git and provides a UNIX-like terminal  
-            -> Steps to install Git Bash:  
-               -> Download Git from [Git for Windows](https://git-scm.com/)  
-               -> Select the option to include Git Bash during installation  
-               -> Use Git Bash as your terminal to run UNIX-style commands  
+   -> **windows operating systems**:  
+      -> two recommended options for unix-like environments on windows:  
+         -> **windows subsystem for linux (wsl)**:  
+            -> wsl enables you to run a full linux distribution within windows  
+            -> allows seamless execution of unix-based commands and tools  
+            -> steps to install wsl:  
+               -> open powershell as administrator  
+               -> run: `wsl --install` (for windows 10/11)  
+               -> restart your system, then set up your linux distribution (e.g., ubuntu)  
+               -> install python, flask, and other tools within the linux environment  
+            -> official microsoft tutorial provides detailed guidance  
+         -> **git bash**:  
+            -> lightweight alternative for users unable to install wsl  
+            -> comes packaged with git and provides a unix-like terminal  
+            -> steps to install git bash:  
+               -> download git from [git for windows](https://git-scm.com/)  
+               -> select the option to include git bash during installation  
+               -> use git bash as your terminal to run unix-style commands  
 
--> Why Use a UNIX-Based Environment?  
-   -> Web development is often optimised for UNIX-based systems due to:  
-      -> Compatibility with web servers and hosting environments  
-      -> Standardised tooling and command-line interfaces  
-   -> Working in a UNIX environment prepares you for deploying and managing Flask applications in production  
+-> why use a unix-based environment?  
+   -> web development is often optimised for unix-based systems due to:  
+      -> compatibility with web servers and hosting environments  
+      -> standardised tooling and command-line interfaces  
+   -> working in a unix environment prepares you for deploying and managing flask applications in production  
 
--> Summary: Python Flask Framework OS Requirements  
-   -> **UNIX-Based Systems (Linux, macOS)**:  
-      -> If using Linux (e.g., Ubuntu) or macOS, follow along with the course without additional steps  
-   -> **Windows Systems**:  
-      -> Install and configure WSL or Git Bash for a compatible development environment  
-      -> Using WSL is the preferred approach for its native Linux support  
-      -> Ensure that all setup is completed within your chosen UNIX-based shell before proceeding  
+-> summary: python flask framework os requirements  
+   -> **unix-based systems (linux, macos)**:  
+      -> if using linux (e.g., ubuntu) or macos, follow along with the course without additional steps  
+   -> **windows systems**:  
+      -> install and configure wsl or git bash for a compatible development environment  
+      -> using wsl is the preferred approach for its native linux support  
+      -> ensure that all setup is completed within your chosen unix-based shell before proceeding
